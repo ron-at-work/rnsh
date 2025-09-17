@@ -1,0 +1,16 @@
+{
+  "name": "Rounit Sinha - Web Developer",
+  "short_name": "Rounit Sinha",
+  "description": "Passionate web developer from India building digital experiences with React, Next.js, and modern web technologies.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f2927",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

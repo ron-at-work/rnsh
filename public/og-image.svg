@@ -1,0 +1,14 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F9FAFC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="64" font-weight="300" fill="#1f2927" text-anchor="middle">Rounit Sinha</text>
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="28" font-weight="400" fill="#667581" text-anchor="middle">Web Developer &amp; Digital Creator</text>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="#9fa2a6" text-anchor="middle">Building digital experiences with React, Next.js, and modern web technologies</text>
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#9fa2a6" text-anchor="middle">rnsh.dev</text>
+</svg>
