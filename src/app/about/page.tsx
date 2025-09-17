@@ -50,7 +50,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-medium">Hello there!</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                I'm Rounit, a passionate developer from India, who loves building things that matter. 
+                I&apos;m Rounit, a passionate developer from India, who loves building things that matter. 
                 My journey in technology started with curiosity and has evolved into a 
                 deep appreciation for clean code, thoughtful design, and meaningful user experiences.
               </p>
@@ -92,7 +92,7 @@ export default function AboutPage() {
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 Whatever comes my way, I get it done within 24 hours. Implement fast, grow faster. 
-                Forget the world's noise. Live the best life.
+                Forget the world&apos;s noise. Live the best life.
               </p>
               
               {/* Give respect crossed out, Take respect */}
@@ -127,12 +127,12 @@ export default function AboutPage() {
 
           {/* Contact */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-medium">Let's Connect</h2>
+              <h2 className="text-2xl font-medium">Let&apos;s Connect</h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                I'm always open to new opportunities, collaborations, and interesting conversations. 
+                I&apos;m always open to new opportunities, collaborations, and interesting conversations. 
                 Whether you have a project in mind, want to discuss technology, or just want to say hi, 
-                I'd love to hear from you.
+                I&apos;d love to hear from you.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a 

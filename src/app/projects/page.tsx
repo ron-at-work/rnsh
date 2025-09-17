@@ -64,7 +64,7 @@ export default function ProjectsPage() {
             </div>
           </div>
           <p className="text-lg text-gray-700 leading-relaxed">
-            A collection of things I've built, from web applications to creative experiments. 
+            A collection of things I&apos;ve built, from web applications to creative experiments. 
             Each project represents a learning journey and a step forward in my development skills.
           </p>
         </div>
@@ -211,7 +211,7 @@ export default function ProjectsPage() {
             <p className="text-sm text-gray-500">
               Interested in collaborating or have a project in mind? 
               <Link href="mailto:rounitrsinha@gmail.com" className="ml-1 text-gray-700 hover:text-gray-900 transition-colors">
-                Let's connect
+                Let&apos;s connect
               </Link>
             </p>
             <div className="pulse-animation">

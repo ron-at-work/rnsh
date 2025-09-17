@@ -232,7 +232,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-base font-medium text-gray-800 group-hover:text-gray-900 transition-colors">Projects</h3>
-                <p className="text-xs text-gray-500 mt-2">Things I've built</p>
+                <p className="text-xs text-gray-500 mt-2">Things I&apos;ve built</p>
               </div>
             </Link>
             
