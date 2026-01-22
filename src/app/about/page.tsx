@@ -102,7 +102,7 @@ export default function AboutPage() {
                   <div>
                     <h3 className="text-xl font-semibold text-gray-900">SDE-1 Frontend</h3>
                     <p className="text-lg text-gray-700 font-medium">Appscrip</p>
-                    <p className="text-sm text-gray-500">Apr 2024 - Present · 1 yr 6 mos</p>
+                    <p className="text-sm text-gray-500">Apr 2024 - Present</p>
                     <p className="text-sm text-gray-500">Bengaluru, Karnataka, India · On-site</p>
                   </div>
                   <span className="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">
