@@ -1,6 +1,15 @@
 export const projects = [
   {
     id: 1,
+    title: "Kiwi.ai",
+    description: "Visualize React component props, flows, and breaking changes instantly.",
+    technologies: ["React", "JavaScript", "NPM Package"],
+    link: "https://kiwi-ai-two.vercel.app/",
+    // github: "https://github.com/ron-at-work/kiwi-ai",
+    featured: true
+  },
+  {
+    id: 1,
     title: "React Flow Form",
     description: "A simple and customizable multistep form flow for React applications. It allows you to create multistep forms with ease, enabling users to navigate through different sections of the form smoothly.",
     technologies: ["React", "JavaScript", "NPM Package"],
@@ -25,16 +34,6 @@ export const projects = [
     link: "https://tonedthreads.vercel.app",
     github: "https://github.com/rounit08/tonedthreads",
     featured: true
-  },
-  {
-    id: 4,
-    title: "AI Powered Website Builder",
-    description: "An upcoming AI-powered drag and drop website builder that will revolutionize how people create websites with intelligent design suggestions and automated layouts.",
-    technologies: ["AI/ML", "React", "TypeScript", "Coming Soon"],
-    link: "#",
-    github: "#",
-    featured: false,
-    status: "Upcoming"
   },
   {
     id: 5,

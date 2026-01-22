@@ -237,7 +237,8 @@ export default function Home() {
             </Link>
             
             <Link 
-              href="/blog" 
+              href="https://rondotenv.substack.com" 
+              target='_blank'
               className="group text-center space-y-6 hover:scale-105 transition-all duration-500 ease-out"
             >
               <div className="w-12 h-12 mx-auto bg-gray-50 rounded-full flex items-center justify-center group-hover:bg-gray-100 transition-all duration-300">
@@ -372,10 +373,14 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="mt-4 space-y-2">
-                  <p className="text-sm text-gray-600">
-                    Developed real-time chat plugin with 99.9% uptime, improved Core Web Vitals by 40%, 
-                    and led UI development for AI SaaS product with 35% increase in user engagement.
-                  </p>
+                  <ul className="text-sm text-gray-600 space-y-2 list-disc list-inside">
+                    <li>Architected a scalable, LLM-powered chatbot platform for STIHL (a manufacturing company) with modular widget-based UI, dynamic sidebars, and RBAC-driven granular permissions for secure, customisable user experiences using NextJS.</li>
+                    <li>Developed a real-time chat plugin using StencilJS, MQTT and StorybookJS for seamless cross-framework integration with features like offline message support, groupchat etc.</li>
+                    <li>Optimised performance for a recommerce project using NextJS, Strapi CMS achieving 90+ pagespeed insight score with SEO schema integration.</li>
+                    <li>Developed a production-ready deployment orchestration API with webhook integration, real-time status tracking, and automated Coolify deployment management using TypeScript, Node.js.</li>
+                    <li>Built a centralised auth abstraction layer to standardise token storage and session management across multiple authentication providers (Google OAuth, Supabase magic links, and custom APIs).</li>
+                    <li>Managed a frontend team and delivered projects on time.</li>
+                  </ul>
                   <div className="flex flex-wrap gap-2 mt-3">
                     {['React.js', 'Next.js', 'TypeScript', 'StencilJS', 'MQTT', 'Storybook'].map((skill) => (
                       <span key={skill} className="px-2 py-1 bg-blue-50 text-blue-700 text-xs rounded">
@@ -589,12 +594,9 @@ export default function Home() {
 
               {/* Key Achievements */}
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-6 border border-blue-200">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">Key Achievements</h3>
-                <div className="grid gap-4 md:grid-cols-3">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">99.9%</div>
-                    <div className="text-sm text-gray-600">Chat Plugin Uptime</div>
-                  </div>
+                <h3 className="text-lg text-center font-semibold text-gray-900 mb-4">Key Achievements</h3>
+                <div className="grid gap-4 md:grid-cols-2">
+                 
                   <div className="text-center">
                     <div className="text-2xl font-bold text-green-600">40%</div>
                     <div className="text-sm text-gray-600">Core Web Vitals Improvement</div>
@@ -615,7 +617,7 @@ export default function Home() {
         <div className="flex justify-center items-center space-x-6 mb-4">
           {/* GitHub Icon */}
           <a 
-            href="https://github.com/rounit08" 
+            href="https://github.com/ron-at-work" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-gray-600 transition-colors duration-300"

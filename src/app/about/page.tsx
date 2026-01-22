@@ -110,27 +110,13 @@ export default function AboutPage() {
                   </span>
                 </div>
                 <div className="space-y-2 text-gray-700">
-                  <ul className="space-y-2 text-sm">
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-500 mt-1">•</span>
-                      <span>Developed a real-time chat plugin for cross-framework integration, utilizing StencilJS, MQTT, and StorybookJS to streamline real-time communication with 99.9% uptime and seamless performance across multiple front-end environments.</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-500 mt-1">•</span>
-                      <span>Engineered Pug template generation for email templates, achieving 95% compatibility across email clients and improving email load times by 30%.</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-500 mt-1">•</span>
-                      <span>Played a key role in the Le-offer e-commerce project, implementing Singleton Design Pattern, improving scalability and maintainability of Product Detail Pages (PDP) and Product Listing Pages (PLP).</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-500 mt-1">•</span>
-                      <span>Integrated Next.js, Strapi CMS, and Tailwind CSS, reducing initial page load time by 40% and improving Core Web Vitals scores by 40%, achieving a PageSpeed Insight score of 90+.</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-blue-500 mt-1">•</span>
-                      <span>Led the UI development for Isometrik AI&apos;s SaaS product, designing interfaces that contributed to a 35% increase in user engagement and a 50% reduction in onboarding time for new users.</span>
-                    </li>
+                <ul className="text-sm text-gray-600 space-y-2 list-disc list-inside">
+                    <li>Architected a scalable, LLM-powered chatbot platform for STIHL (a manufacturing company) with modular widget-based UI, dynamic sidebars, and RBAC-driven granular permissions for secure, customisable user experiences using NextJS.</li>
+                    <li>Developed a real-time chat plugin using StencilJS, MQTT and StorybookJS for seamless cross-framework integration with features like offline message support, groupchat etc.</li>
+                    <li>Optimised performance for a recommerce project using NextJS, Strapi CMS achieving 90+ pagespeed insight score with SEO schema integration.</li>
+                    <li>Developed a production-ready deployment orchestration API with webhook integration, real-time status tracking, and automated Coolify deployment management using TypeScript, Node.js.</li>
+                    <li>Built a centralised auth abstraction layer to standardise token storage and session management across multiple authentication providers (Google OAuth, Supabase magic links, and custom APIs.</li>
+                    <li>Managed a frontend team and delivered projects on time.</li>
                   </ul>
                   <div className="flex flex-wrap gap-2 mt-3">
                     {['Figma', 'MQTT', 'Next.js', 'Strapi.js', 'Redux.js', 'Tailwind CSS', 'Storybook', 'StencilJS', 'TypeScript'].map((skill) => (
