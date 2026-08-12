@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import type { WebGLRenderer } from 'three';
 
 export default function ParticleField() {
   const wrapRef = useRef<HTMLDivElement>(null);
@@ -13,7 +14,7 @@ export default function ParticleField() {
 
     let disposed = false;
     let raf = 0;
-    let renderer: { dispose: () => void; domElement: HTMLCanvasElement; setSize: (w: number, h: number) => void; setPixelRatio: (n: number) => void; render: (s: unknown, c: unknown) => void } | undefined;
+    let renderer: WebGLRenderer | undefined;
     const cleanups: Array<() => void> = [];
 
     import('three').then((THREE) => {
