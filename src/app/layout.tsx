@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Serif, Inconsolata } from "next/font/google";
 import "./globals.css";
+import PenCursor from "@/components/PenCursor";
 
 const ibmPlexSerif = IBM_Plex_Serif({
   variable: "--font-ibm-plex-serif",
@@ -82,6 +83,7 @@ export default function RootLayout({
           <main className="notebook-content">
             {children}
           </main>
+          <PenCursor />
         </div>
       </body>
     </html>
